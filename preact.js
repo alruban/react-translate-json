@@ -2,4 +2,4 @@
 import preact, { Component } from 'preact';
 import { withComponent } from './with-component';
 
-export const TranslateComponent = withComponent(Component, preact);
+export const Translate = withComponent(Component, preact);

@@ -1,8 +1,8 @@
 Make react speak your language.
 =
 
-[![npm version](https://badge.fury.io/js/react-translate-json.svg?bust)](https://badge.fury.io/js/react-translate-json) 
-[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/cristianbote/react-translate-json.svg?maxAge=2592000)](https://codecov.io/github/cristianbote/react-translate-json?branch=master) 
+[![npm version](https://badge.fury.io/js/react-translate-json.svg?bust)](https://badge.fury.io/js/react-translate-json)
+[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/cristianbote/react-translate-json.svg?maxAge=2592000)](https://codecov.io/github/cristianbote/react-translate-json?branch=master)
 [![Build Status](https://travis-ci.org/cristianbote/react-translate-json.svg?branch=master)](https://travis-ci.org/cristianbote/react-translate-json)
 
 Overview
@@ -68,7 +68,7 @@ Now, you can easily add in your translations by importing the component.
 ```js
 // App.js
 import React, { Component } from 'react';
-import { TranslateComponent } from 'react-translate-json/react';
+import { Translate } from 'react-translate-json/react';
 
 class App extends Component {
   render() {
@@ -76,15 +76,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          
+
           {/* Render-prop based */}
-          <TranslateComponent label="PAGES.HOME.TITLE" render={(res) => (
+          <Translate label="PAGES.HOME.TITLE" render={(res) => (
             <h1 className="App-title">{res}</h1>
           )}/>
-          
+
           {/* Regular component usage */}
           <h2 className="greet">
-              <TranslateComponent label="HELLO" params={{user: 'John'}}/>
+              <Translate label="HELLO" params={{user: 'John'}}/>
           </h2>
 
         </header>
@@ -103,14 +103,14 @@ export default App;
 ```js
 // App.js
 import { Component, h } from 'preact';
-import { TranslateComponent } from 'react-translate-json/preact';
+import { Translate } from 'react-translate-json/preact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
           <h2 className="greet">
-              <TranslateComponent label="HELLO" params={{user: 'John'}}/>
+              <Translate label="HELLO" params={{user: 'John'}}/>
           </h2>
       </div>
     );

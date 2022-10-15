@@ -2,4 +2,4 @@
 import React, { Component } from 'react';
 import { withComponent } from './with-component';
 
-export const TranslateComponent = withComponent(Component, React);
+export const Translate = withComponent(Component, React);
