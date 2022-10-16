@@ -1,6 +1,6 @@
 {
   "name": "@rubancorp/react-translate-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React JSON Translation component based on @cristianbote's original, tweaked for React v18",
   "main": "index.js",
   "files": [
