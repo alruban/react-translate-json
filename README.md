@@ -37,7 +37,7 @@ The following examples are based on `create-react-app` results.
 import React from 'react';
 import ReactDOM from 'react-dom';
 // Import the TranslateProvider function to provide the service with your settings
-import { TranslateProvider } from 'react-translate-json';
+import { TranslateProvider } from '@rubancorp/react-translate-json';
 import App from './App';
 
 const translationOptions = {
