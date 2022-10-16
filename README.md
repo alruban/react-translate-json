@@ -61,7 +61,7 @@ Now, you can easily add in your translations by importing the component.
 ```js
 // App.js
 import React, { Component } from 'react';
-import { Translate } from 'react-translate-json/react';
+import { Translate } from '@rubancorp/react-translate-json/react';
 
 class App extends Component {
   render() {
@@ -96,7 +96,7 @@ export default App;
 ```js
 // App.js
 import { Component, h } from 'preact';
-import { Translate } from 'react-translate-json/preact';
+import { Translate } from '@rubancorp/react-translate-json/preact';
 
 class App extends Component {
   render() {
