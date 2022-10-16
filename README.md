@@ -1,9 +1,4 @@
-Make react speak your language.
-=
-
-[![npm version](https://badge.fury.io/js/react-translate-json.svg?bust)](https://badge.fury.io/js/react-translate-json)
-[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/cristianbote/react-translate-json.svg?maxAge=2592000)](https://codecov.io/github/cristianbote/react-translate-json?branch=master)
-[![Build Status](https://travis-ci.org/cristianbote/react-translate-json.svg?branch=master)](https://travis-ci.org/cristianbote/react-translate-json)
+React JSON Translation component based on @cristianbote's original, tweaked for React v18
 
 Overview
 --------
@@ -11,8 +6,6 @@ Overview
 ### Instalation
 ```
 npm install --save react-translate-json
-# or
-yarn add react-translate-json
 ```
 
 ### Getting started

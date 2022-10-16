@@ -1,7 +1,7 @@
 {
-  "name": "react-translate-json",
-  "version": "2.1.1",
-  "description": "React JSON Translation component based on @cristianbote's original",
+  "name": "@rubancorp/react-translate-json",
+  "version": "1.0.0",
+  "description": "React JSON Translation component based on @cristianbote's original, tweaked for React v18",
   "main": "index.js",
   "files": [
     "index.js",
@@ -22,7 +22,7 @@
     "preact-translate-json",
     "translate-json"
   ],
-  "author": "Cristian Bote <me@cristianbote.ro> && Alruban",
+  "author": "Cristian Bote <me@cristianbote.ro> && Alruban <rubancorp@proton.me>",
   "license": "ISC",
   "babel": {
     "plugins": [
@@ -31,39 +31,6 @@
     "presets": [
       "env",
       "react"
-    ]
-  },
-  "ava": {
-    "files": [
-      "tests/*.js",
-      "!tests/utilities/*"
-    ],
-    "source": [
-      "index.js"
-    ],
-    "color": true,
-    "concurrency": 5,
-    "failFast": true,
-    "failWithoutAssertions": false,
-    "tap": true,
-    "powerAssert": true,
-    "require": [
-      "babel-register"
-    ],
-    "babel": {
-      "plugins": [
-        "babel-plugin-transform-object-rest-spread"
-      ],
-      "presets": [
-        "env",
-        "react"
-      ]
-    }
-  },
-  "nyc": {
-    "exclude": [
-      "tests/*.*",
-      "tests/**/*.*"
     ]
   },
   "devDependencies": {
